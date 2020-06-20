@@ -4,15 +4,15 @@ using namespace std;
 template <typename T> 
 void swapd(T &a, T &b)
 {
-    int temp = a;
+    T temp = a;
     a = b;
     b = temp;
 }
 
 int main()
 {
-    int a = 5;
-    int b = 10;
+   double a = 5.5;
+   double b = 10.7;
     cout << "Before swap: " << endl;
     cout << "a= " << a << endl;
     cout << "b= " << b << endl;
